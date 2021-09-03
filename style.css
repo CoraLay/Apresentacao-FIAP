@@ -68,3 +68,20 @@ footer {
   background:rgb(196, 61, 144);
   color: white;
 }
+
+table {
+  text-align: center;
+  border-collapse: collapse; 
+}
+
+th {
+  font-weight: bold;
+  padding: 1.5em 0;
+  border: 1px solid white;
+}
+
+td {
+  padding: 1em 2em;
+  border: 1px solid white;
+}
+
