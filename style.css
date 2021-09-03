@@ -1,7 +1,7 @@
 
 body {
   background-image: linear-gradient(rgb(255, 169, 216),rgb(203, 166, 252),  rgb(117, 190, 156));
-  margin: 5em 15em 0 15em;
+  margin: 2% 0 0 4%;
   font-family: "Comfortaa";
 }
 
@@ -20,7 +20,7 @@ nav ul {
 
 .li-nav {
   display: inline-block;
-  padding: 2em;
+  padding: 2%;
 }
 
 .li-nav a{
@@ -37,7 +37,7 @@ a:hover {
 
 img {
   border-radius: 50%;
-  width: 300px;
+  width: 23%;
   float: right;
   border: 5px solid rgb(255, 255, 255);
   box-shadow: 4px 2px 20px rgba(54, 20, 68, 0.644);
