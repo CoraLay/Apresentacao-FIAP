@@ -1,0 +1,70 @@
+
+body {
+  background-image: linear-gradient(rgb(255, 169, 216),rgb(203, 166, 252),  rgb(117, 190, 156));
+  margin: 5em 15em 0 15em;
+  font-family: "Comfortaa";
+}
+
+header {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.li-nav {
+  display: inline-block;
+  padding: 2em;
+}
+
+.li-nav a{
+  text-decoration: none;
+  font-weight: bold;
+  color:rgb(155, 5, 105);
+  font-size: 1.2em  ;
+}
+
+a:hover {
+  text-shadow: 0 0 10px white;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+  width: 300px;
+  float: right;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: 4px 2px 20px rgba(54, 20, 68, 0.644);
+  margin-left: 2em;
+}
+
+#intro {
+  width: 90%;
+  margin-bottom: 7em;
+}
+
+p {
+  line-height: 1.8em;
+}
+
+li {
+  line-height: 1.8em;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 5em;
+  font-weight: bold;
+}
+
+::selection {
+  background:rgb(196, 61, 144);
+  color: white;
+}
