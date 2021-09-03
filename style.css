@@ -74,10 +74,11 @@ table {
   border-collapse: collapse; 
 }
 
-th {
+th, td:first-of-type {
   font-weight: bold;
-  padding: 1.5em 0;
+  padding: 1.5em 1em;
   border: 1px solid white;
+  text-transform: uppercase; 
 }
 
 td {
@@ -85,3 +86,6 @@ td {
   border: 1px solid white;
 }
 
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.432);
+}
